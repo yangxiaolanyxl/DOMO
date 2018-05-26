@@ -1,0 +1,253 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ol,ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*header开始*/
+.header{
+    background-color: #eeeeef;
+    height: 173px;
+}
+.logo{
+    text-align: center;
+    height: 125px;
+    
+}
+.logo img{
+    margin-top: 30px;
+}
+.nav{
+    width: 670px;
+    height: 45px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 23px;
+}
+.nav li{
+    float: left;
+    height: 45px;
+    padding:0 30px;
+    line-height: 45px;
+    background: url(../images/line.png) no-repeat right center;
+}
+.nav li a{
+    display: block;
+    height: 42px;
+    font-size: 14px;
+    color: #333333;
+    
+}
+.blue{
+    height: 3px;
+    width: 56px;
+    background: #1e50ae;
+    position: relative;
+    bottom: 3px;
+    display: none;
+}
+.nav li:hover .blue{
+    display: block;
+
+}
+.nav li:hover a{
+    color: #1e50ae;
+
+}
+.nav li:last-child{
+    background: none;
+}
+/*header结束*/
+/*banner开始*/
+.banner{
+    width: 100%;
+    height: 405px;
+    background: url(../images/bg.png) no-repeat center center;
+}
+.serve{
+    width: 1200px;
+    height: 809px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.title{
+    margin-top: 63px;
+    margin-bottom: 63px;
+}
+.top li{
+    float: left;
+    width: 300px;
+    height: 366px;
+}
+.bottom li{
+    float: left;
+    width: 300px;
+    height: 244px;
+}
+.one li{
+    width: 300px;
+    height: 28px;
+    color: #909090;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 110px;
+}
+.top p,.bottom p{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #333333;
+
+}
+/*serve结束*/
+/*solution开始*/
+.solution{
+    position: relative;
+    width: 1560px;
+    height: 712px;
+    background: url(../images/bg2.png) no-repeat center center;
+    margin: 0 auto;
+    text-align: center;
+}
+.title2{
+    margin-top: 66px;
+    margin-bottom: 73px;
+/*    margin-left: 100px;*/
+    float: left;
+    margin-left: 714px;
+    margin-right: 710px;
+
+}
+.choose img{
+    float: left;
+}
+
+.photo li:hover img{
+    border-top: 3px solid #1141a3;
+    border-left: 3px solid #1141a3;
+    border-right: 3px solid #1141a3;
+    border-bottom: 3px solid #1141a3;
+
+}
+.more{
+    position: absolute;
+    bottom: 64px;
+    left: 650px;
+}
+
+/*<!-- slution结束 -->*/
+/*<!-- information开始       -->*/
+.infor{
+    text-align: center;
+}
+.title3{
+    text-align: ;    
+    height: 176px;
+}
+.title3 img{
+    margin-top: 54px;
+}
+.box{
+    height: 644px;
+    width: 1560px;
+    margin: 0 auto;
+}
+.nice{
+    float: left;
+    text-align: left;
+    height: 322px;
+    width: 507px;  
+    font-size: 14px;
+    color: #797979;  
+}
+.x{
+    margin-bottom: 14px;
+    margin-top: 17px;
+}
+.bottom2{
+    height: 100px;
+    background:#f5f5f5;
+    margin-bottom: 0px;
+    margin-top: 90px;
+    padding-left:375px;
+}
+.bottom2 li{
+    height: 48px;
+    width: 300px;
+    float: left;
+    margin-top: 26px;
+    border-right: 1px solid #e0e0e0;
+}
+.bottom2 img{
+    margin-left: 44px;
+    margin-right: 23px;
+    float: left;
+}
+.p1{
+    font-size: 19px;
+    color: #333333;
+}
+.p2{
+    font-size: 13px;
+    color:#4f4f4f;
+}
+
+/*<!-- information结束       -->*/
+/*finally开始*/
+.finally{
+    height: 387px;
+    width: 1560px;
+    background: url(../images/bg4.png) no-repeat center center;
+    margin: 0 auto;
+
+}
+.finally ul{
+    color: #ffffff;
+    float: left;
+}
+.box2{
+    position: relative;
+    top: 73px;
+    left: 182px;
+}
+.box2 ul{
+    margin-right: 110px;
+}
+.box2 li{
+    font-size: 14px;
+    margin-bottom: 22px;9
+    margin-bottom: 31px;
+}
+.nav2 li{
+    float: left;
+    font-size: 14px;
+    height: 15px;
+    color: #ffffff;
+    border-right: 1px solid #ffffff;
+    margin-top: 302px;
+    padding-left: 13px;
+    padding-right: 13px;
+    position: relative;
+    right: 330px;
+}
+.nav2 a{
+    color: #ffffff;
+}
+.nav2 li:last-child{
+    border-right: none;
+
+}
+.finally p{
+    color: #ffffff;
+    float: left;
+    margin-left: 650px;
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+/*finally结束*/
